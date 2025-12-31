@@ -1,0 +1,300 @@
+[submodule "meta-gplv2"]
+	path = meta-gplv2
+	url = git@192.168.12.166:streambox/meta-gplv2.git
+[submodule "meta-aml-cfg"]
+	path = meta-aml-cfg
+	url = git@192.168.12.166:streambox/meta-aml-cfg.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git@192.168.12.166:streambox/meta-openembedded.git
+[submodule "aml-patches"]
+	path = aml-patches
+	url = git@192.168.12.166:streambox/aml-patches.git
+[submodule "meta-security"]
+	path = meta-security
+	url = git@192.168.12.166:streambox/meta-security.git
+[submodule "meta-python2"]
+	path = meta-python2
+	url = git@192.168.12.166:streambox/meta-python2.git
+[submodule "poky"]
+	path = poky
+	url = git@192.168.12.166:streambox/poky.git
+[submodule ".repo/repo"]
+	path = .repo/repo
+	url = git@192.168.12.166:streambox/repo.git
+[submodule ".repo/manifests"]
+	path = .repo/manifests
+	url = git@192.168.12.166:streambox/manifests.git
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = git@192.168.12.166:streambox/meta-qt5.git
+[submodule "meta-meson"]
+	path = meta-meson
+	url = git@192.168.12.166:streambox/meta-meson.git
+[submodule "aml-comp/vendor/amlogic/bluez-alsa"]
+	path = aml-comp/vendor/amlogic/bluez-alsa
+	url = git@192.168.12.166:streambox/bluez-alsa.git
+[submodule "aml-comp/vendor/amlogic/dialserver"]
+	path = aml-comp/vendor/amlogic/dialserver
+	url = git@192.168.12.166:streambox/dialserver.git
+[submodule "aml-comp/vendor/amlogic/aml_tvserver"]
+	path = aml-comp/vendor/amlogic/aml_tvserver
+	url = git@192.168.12.166:streambox/aml_tvserver.git
+[submodule "aml-comp/vendor/amlogic/zvbi"]
+	path = aml-comp/vendor/amlogic/zvbi
+	url = git@192.168.12.166:streambox/zvbi.git
+[submodule "aml-comp/vendor/amlogic/secpu_fw_loader"]
+	path = aml-comp/vendor/amlogic/secpu_fw_loader
+	url = git@192.168.12.166:streambox/secpu_fw_loader.git
+[submodule "aml-comp/vendor/amlogic/libsecdmx_release"]
+	path = aml-comp/vendor/amlogic/libsecdmx_release
+	url = git@192.168.12.166:streambox/libsecdmx_release.git
+[submodule "aml-comp/vendor/amlogic/ledring"]
+	path = aml-comp/vendor/amlogic/ledring
+	url = git@192.168.12.166:streambox/ledring.git
+[submodule "aml-comp/vendor/amlogic/hdcp"]
+	path = aml-comp/vendor/amlogic/hdcp
+	url = git@192.168.12.166:streambox/hdcp.git
+[submodule "aml-comp/vendor/amlogic/slt/npu_app"]
+	path = aml-comp/vendor/amlogic/slt/npu_app
+	url = git@192.168.12.166:streambox/npu_app.git
+[submodule "aml-comp/vendor/amlogic/bluez"]
+	path = aml-comp/vendor/amlogic/bluez
+	url = git@192.168.12.166:streambox/bluez.git
+[submodule "aml-comp/vendor/amlogic/aml_avb_dm_verity"]
+	path = aml-comp/vendor/amlogic/aml_avb_dm_verity
+	url = git@192.168.12.166:streambox/aml_avb_dm_verity.git
+[submodule "aml-comp/vendor/amlogic/aml_swupdate_ui"]
+	path = aml-comp/vendor/amlogic/aml_swupdate_ui
+	url = git@192.168.12.166:streambox/aml_swupdate_ui.git
+[submodule "aml-comp/vendor/amlogic/aml_pqserver"]
+	path = aml-comp/vendor/amlogic/aml_pqserver
+	url = git@192.168.12.166:streambox/aml_pqserver.git
+[submodule "aml-comp/vendor/amlogic/meson_display"]
+	path = aml-comp/vendor/amlogic/meson_display
+	url = git@192.168.12.166:streambox/meson_display.git
+[submodule "aml-comp/vendor/amlogic/linux_sample_app"]
+	path = aml-comp/vendor/amlogic/linux_sample_app
+	url = git@192.168.12.166:streambox/linux_sample_app.git
+[submodule "aml-comp/vendor/amlogic/tdk/v3.18.0"]
+	path = aml-comp/vendor/amlogic/tdk/v3.18.0
+	url = git@192.168.12.166:streambox/v3.18.0.git
+[submodule "aml-comp/vendor/amlogic/tdk/v2.4.4"]
+	path = aml-comp/vendor/amlogic/tdk/v2.4.4
+	url = git@192.168.12.166:streambox/v2.4.4.git
+[submodule "aml-comp/vendor/amlogic/tdk/v3.8.0"]
+	path = aml-comp/vendor/amlogic/tdk/v3.8.0
+	url = git@192.168.12.166:streambox/v3.8.0.git
+[submodule "aml-comp/vendor/amlogic/aucpu_fw"]
+	path = aml-comp/vendor/amlogic/aucpu_fw
+	url = git@192.168.12.166:streambox/aucpu_fw.git
+[submodule "aml-comp/vendor/amlogic/mediactrlsrc"]
+	path = aml-comp/vendor/amlogic/mediactrlsrc
+	url = git@192.168.12.166:streambox/mediactrlsrc.git
+[submodule "aml-comp/vendor/amlogic/dtvdemod"]
+	path = aml-comp/vendor/amlogic/dtvdemod
+	url = git@192.168.12.166:streambox/dtvdemod.git
+[submodule "aml-comp/vendor/amlogic/gst1-plugins-tsplayer"]
+	path = aml-comp/vendor/amlogic/gst1-plugins-tsplayer
+	url = git@192.168.12.166:streambox/gst1-plugins-tsplayer.git
+[submodule "aml-comp/vendor/amlogic/apl-core-library"]
+	path = aml-comp/vendor/amlogic/apl-core-library
+	url = git@192.168.12.166:streambox/apl-core-library.git
+[submodule "aml-comp/vendor/amlogic/boot-animation"]
+	path = aml-comp/vendor/amlogic/boot-animation
+	url = git@192.168.12.166:streambox/boot-animation.git
+[submodule "aml-comp/vendor/amlogic/meson_mali"]
+	path = aml-comp/vendor/amlogic/meson_mali
+	url = git@192.168.12.166:streambox/meson_mali.git
+[submodule "aml-comp/vendor/amlogic/aml_npu_common"]
+	path = aml-comp/vendor/amlogic/aml_npu_common
+	url = git@192.168.12.166:streambox/aml_npu_common.git
+[submodule "aml-comp/vendor/amlogic/provision"]
+	path = aml-comp/vendor/amlogic/provision
+	url = git@192.168.12.166:streambox/provision.git
+[submodule "aml-comp/vendor/amlogic/apl-client-library"]
+	path = aml-comp/vendor/amlogic/apl-client-library
+	url = git@192.168.12.166:streambox/apl-client-library.git
+[submodule "aml-comp/vendor/amlogic/aml_hdmicec"]
+	path = aml-comp/vendor/amlogic/aml_hdmicec
+	url = git@192.168.12.166:streambox/aml_hdmicec.git
+[submodule "aml-comp/vendor/amlogic/aml_subtitleserver"]
+	path = aml-comp/vendor/amlogic/aml_subtitleserver
+	url = git@192.168.12.166:streambox/aml_subtitleserver.git
+[submodule "aml-comp/vendor/amlogic/aml_commonlib"]
+	path = aml-comp/vendor/amlogic/aml_commonlib
+	url = git@192.168.12.166:streambox/aml_commonlib.git
+[submodule "aml-comp/vendor/amlogic/dvb"]
+	path = aml-comp/vendor/amlogic/dvb
+	url = git@192.168.12.166:streambox/dvb.git
+[submodule "aml-comp/vendor/amlogic/libdrm_amlogic"]
+	path = aml-comp/vendor/amlogic/libdrm_amlogic
+	url = git@192.168.12.166:streambox/libdrm_amlogic.git
+[submodule "aml-comp/vendor/amlogic/adla_lib"]
+	path = aml-comp/vendor/amlogic/adla_lib
+	url = git@192.168.12.166:streambox/adla_lib.git
+[submodule "aml-comp/multimedia"]
+	path = aml-comp/multimedia
+	url = git@192.168.12.166:streambox/multimedia.git
+[submodule "aml-comp/prebuilt/vendor"]
+	path = aml-comp/prebuilt/vendor
+	url = git@192.168.12.166:streambox/vendor.git
+[submodule "aml-comp/prebuilt/target"]
+	path = aml-comp/prebuilt/target
+	url = git@192.168.12.166:streambox/target.git
+[submodule "aml-comp/prebuilt/hosttools"]
+	path = aml-comp/prebuilt/hosttools
+	url = git@192.168.12.166:streambox/hosttools.git
+[submodule "aml-comp/uboot/bl33/v2015"]
+	path = aml-comp/uboot/bl33/v2015
+	url = git@192.168.12.166:streambox/v2015.git
+[submodule "aml-comp/uboot/bl33/v2019"]
+	path = aml-comp/uboot/bl33/v2019
+	url = git@192.168.12.166:streambox/v2019.git
+[submodule "aml-comp/uboot/bl30/bin"]
+	path = aml-comp/uboot/bl30/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl30/src_ao"]
+	path = aml-comp/uboot/bl30/src_ao
+	url = git@192.168.12.166:streambox/src_ao.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/lib/libc"]
+	path = aml-comp/uboot/bl30/rtos_sdk/lib/libc
+	url = git@192.168.12.166:streambox/libc.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/build_system"]
+	path = aml-comp/uboot/bl30/rtos_sdk/build_system
+	url = git@192.168.12.166:streambox/build_system.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/boards/riscv"]
+	path = aml-comp/uboot/bl30/rtos_sdk/boards/riscv
+	url = git@192.168.12.166:streambox/riscv.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/scripts"]
+	path = aml-comp/uboot/bl30/rtos_sdk/scripts
+	url = git@192.168.12.166:streambox/scripts.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/arch/riscv"]
+	path = aml-comp/uboot/bl30/rtos_sdk/arch/riscv
+	url = git@192.168.12.166:streambox/riscv.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/kernel/freertos"]
+	path = aml-comp/uboot/bl30/rtos_sdk/kernel/freertos
+	url = git@192.168.12.166:streambox/freertos.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/drivers_aocpu"]
+	path = aml-comp/uboot/bl30/rtos_sdk/drivers_aocpu
+	url = git@192.168.12.166:streambox/drivers_aocpu.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/soc/riscv"]
+	path = aml-comp/uboot/bl30/rtos_sdk/soc/riscv
+	url = git@192.168.12.166:streambox/riscv.git
+[submodule "aml-comp/uboot/bl30/rtos_sdk/products/aocpu"]
+	path = aml-comp/uboot/bl30/rtos_sdk/products/aocpu
+	url = git@192.168.12.166:streambox/aocpu.git
+[submodule "aml-comp/uboot/bl32/bl32_3.8/bin"]
+	path = aml-comp/uboot/bl32/bl32_3.8/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl32/bl32_2.4/bin"]
+	path = aml-comp/uboot/bl32/bl32_2.4/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl32/bl32_3.18/bin"]
+	path = aml-comp/uboot/bl32/bl32_3.18/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl31/bl31_1.0/bin"]
+	path = aml-comp/uboot/bl31/bl31_1.0/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl31/bl31_1.3/bin"]
+	path = aml-comp/uboot/bl31/bl31_1.3/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/bl2/bin"]
+	path = aml-comp/uboot/bl2/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/uboot/fip"]
+	path = aml-comp/uboot/fip
+	url = git@192.168.12.166:streambox/fip.git
+[submodule "aml-comp/uboot/soc/templates"]
+	path = aml-comp/uboot/soc/templates
+	url = git@192.168.12.166:streambox/templates.git
+[submodule "aml-comp/uboot/bl40/bin"]
+	path = aml-comp/uboot/bl40/bin
+	url = git@192.168.12.166:streambox/bin.git
+[submodule "aml-comp/hardware/aml-5.15/wifi/qualcomm/drivers/qca6174"]
+	path = aml-comp/hardware/aml-5.15/wifi/qualcomm/drivers/qca6174
+	url = git@192.168.12.166:streambox/qca6174.git
+[submodule "aml-comp/hardware/aml-5.15/wifi/realtek/drivers/8821cu"]
+	path = aml-comp/hardware/aml-5.15/wifi/realtek/drivers/8821cu
+	url = git@192.168.12.166:streambox/8821cu.git
+[submodule "aml-comp/hardware/aml-5.15/amlogic/media_modules"]
+	path = aml-comp/hardware/aml-5.15/amlogic/media_modules
+	url = git@192.168.12.166:streambox/media_modules.git
+[submodule "aml-comp/hardware/aml-5.15/amlogic/arm-isp"]
+	path = aml-comp/hardware/aml-5.15/amlogic/arm-isp
+	url = git@192.168.12.166:streambox/arm-isp.git
+[submodule "aml-comp/hardware/aml-4.9/wifi/mediatek"]
+	path = aml-comp/hardware/aml-4.9/wifi/mediatek
+	url = git@192.168.12.166:streambox/mediatek.git
+[submodule "aml-comp/hardware/aml-4.9/arm/gpu"]
+	path = aml-comp/hardware/aml-4.9/arm/gpu
+	url = git@192.168.12.166:streambox/gpu.git
+[submodule "aml-comp/hardware/aml-4.9/bluetooth/mediatek"]
+	path = aml-comp/hardware/aml-4.9/bluetooth/mediatek
+	url = git@192.168.12.166:streambox/mediatek.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/broadcom/drivers/ap6xxx"]
+	path = aml-comp/hardware/aml-5.4/wifi/broadcom/drivers/ap6xxx
+	url = git@192.168.12.166:streambox/ap6xxx.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/amlogic/drivers/w1"]
+	path = aml-comp/hardware/aml-5.4/wifi/amlogic/drivers/w1
+	url = git@192.168.12.166:streambox/w1.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/qualcomm/drivers/qca6174"]
+	path = aml-comp/hardware/aml-5.4/wifi/qualcomm/drivers/qca6174
+	url = git@192.168.12.166:streambox/qca6174.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8723du"]
+	path = aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8723du
+	url = git@192.168.12.166:streambox/8723du.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8723bu"]
+	path = aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8723bu
+	url = git@192.168.12.166:streambox/8723bu.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8852be"]
+	path = aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8852be
+	url = git@192.168.12.166:streambox/8852be.git
+[submodule "aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8822cu"]
+	path = aml-comp/hardware/aml-5.4/wifi/realtek/drivers/8822cu
+	url = git@192.168.12.166:streambox/8822cu.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/npu/nanoq"]
+	path = aml-comp/hardware/aml-5.4/amlogic/npu/nanoq
+	url = git@192.168.12.166:streambox/nanoq.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/wifi"]
+	path = aml-comp/hardware/aml-5.4/amlogic/wifi
+	url = git@192.168.12.166:streambox/wifi.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/cve/lib"]
+	path = aml-comp/hardware/aml-5.4/amlogic/cve/lib
+	url = git@192.168.12.166:streambox/lib.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/cve/driver"]
+	path = aml-comp/hardware/aml-5.4/amlogic/cve/driver
+	url = git@192.168.12.166:streambox/driver.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/libencoder"]
+	path = aml-comp/hardware/aml-5.4/amlogic/libencoder
+	url = git@192.168.12.166:streambox/libencoder.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/libge2d"]
+	path = aml-comp/hardware/aml-5.4/amlogic/libge2d
+	url = git@192.168.12.166:streambox/libge2d.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/arm-isp"]
+	path = aml-comp/hardware/aml-5.4/amlogic/arm-isp
+	url = git@192.168.12.166:streambox/arm-isp.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/adla_driver"]
+	path = aml-comp/hardware/aml-5.4/amlogic/adla_driver
+	url = git@192.168.12.166:streambox/adla_driver.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/libgdc"]
+	path = aml-comp/hardware/aml-5.4/amlogic/libgdc
+	url = git@192.168.12.166:streambox/libgdc.git
+[submodule "aml-comp/hardware/aml-5.4/amlogic/libion"]
+	path = aml-comp/hardware/aml-5.4/amlogic/libion
+	url = git@192.168.12.166:streambox/libion.git
+[submodule "aml-comp/hardware/aml-5.4/bluetooth/amlogic"]
+	path = aml-comp/hardware/aml-5.4/bluetooth/amlogic
+	url = git@192.168.12.166:streambox/amlogic.git
+[submodule "aml-comp/hardware/aml-5.4/bluetooth/realtek"]
+	path = aml-comp/hardware/aml-5.4/bluetooth/realtek
+	url = git@192.168.12.166:streambox/realtek.git
+[submodule "aml-comp/kernel/aml-5.15"]
+	path = aml-comp/kernel/aml-5.15
+	url = git@192.168.12.166:streambox/aml-5.15.git
+[submodule "aml-comp/kernel/aml-5.4"]
+	path = aml-comp/kernel/aml-5.4
+	url = git@192.168.12.166:streambox/aml-5.4.git
+[submodule "meta-selinux"]
+	path = meta-selinux
+	url = git@192.168.12.166:streambox/meta-selinux.git
