@@ -19,12 +19,6 @@
 [submodule "poky"]
 	path = poky
 	url = git@192.168.12.166:streambox/poky.git
-[submodule ".repo/repo"]
-	path = .repo/repo
-	url = git@192.168.12.166:streambox/repo.git
-[submodule ".repo/manifests"]
-	path = .repo/manifests
-	url = git@192.168.12.166:streambox/manifests.git
 [submodule "meta-qt5"]
 	path = meta-qt5
 	url = git@192.168.12.166:streambox/meta-qt5.git
