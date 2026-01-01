@@ -147,7 +147,7 @@
 	url = git@192.168.12.166:streambox/v2019.git
 [submodule "aml-comp/uboot/bl30/bin"]
 	path = aml-comp/uboot/bl30/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl30.git
 [submodule "aml-comp/uboot/bl30/src_ao"]
 	path = aml-comp/uboot/bl30/src_ao
 	url = git@192.168.12.166:streambox/src_ao.git
@@ -180,22 +180,22 @@
 	url = git@192.168.12.166:streambox/aocpu.git
 [submodule "aml-comp/uboot/bl32/bl32_3.8/bin"]
 	path = aml-comp/uboot/bl32/bl32_3.8/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl32_3_8.git
 [submodule "aml-comp/uboot/bl32/bl32_2.4/bin"]
 	path = aml-comp/uboot/bl32/bl32_2.4/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl32_2_4.git
 [submodule "aml-comp/uboot/bl32/bl32_3.18/bin"]
 	path = aml-comp/uboot/bl32/bl32_3.18/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl32_3_18.git
 [submodule "aml-comp/uboot/bl31/bl31_1.0/bin"]
 	path = aml-comp/uboot/bl31/bl31_1.0/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl31_1_0.git
 [submodule "aml-comp/uboot/bl31/bl31_1.3/bin"]
 	path = aml-comp/uboot/bl31/bl31_1.3/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl31_1_3.git
 [submodule "aml-comp/uboot/bl2/bin"]
 	path = aml-comp/uboot/bl2/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl2.git
 [submodule "aml-comp/uboot/fip"]
 	path = aml-comp/uboot/fip
 	url = git@192.168.12.166:streambox/fip.git
@@ -204,7 +204,7 @@
 	url = git@192.168.12.166:streambox/templates.git
 [submodule "aml-comp/uboot/bl40/bin"]
 	path = aml-comp/uboot/bl40/bin
-	url = git@192.168.12.166:streambox/bin.git
+	url = git@192.168.12.166:streambox/bl40.git
 [submodule "aml-comp/hardware/aml-5.15/wifi/qualcomm/drivers/qca6174"]
 	path = aml-comp/hardware/aml-5.15/wifi/qualcomm/drivers/qca6174
 	url = git@192.168.12.166:streambox/qca6174.git
