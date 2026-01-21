@@ -31,9 +31,6 @@
 [submodule "aml-comp/vendor/amlogic/dialserver"]
 	path = aml-comp/vendor/amlogic/dialserver
 	url = git@192.168.12.166:streambox/dialserver.git
-[submodule "aml-comp/vendor/amlogic/aml_tvserver"]
-	path = aml-comp/vendor/amlogic/aml_tvserver
-	url = git@192.168.12.166:streambox/aml_tvserver.git
 [submodule "aml-comp/vendor/amlogic/zvbi"]
 	path = aml-comp/vendor/amlogic/zvbi
 	url = git@192.168.12.166:streambox/zvbi.git
