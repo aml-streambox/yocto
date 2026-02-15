@@ -289,3 +289,6 @@
 [submodule "meta-selinux"]
 	path = meta-selinux
 	url = git@github.com:aml-streambox/meta-selinux.git
+[submodule "document"]
+	path = document
+	url = git@github.com:aml-streambox/document.git
