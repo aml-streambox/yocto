@@ -1,0 +1,67 @@
+name: Daily Yocto Build
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ matrix.machine }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        machine: [tvpro-4g, kvim4]
+      fail-fast: false
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Free up disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /opt/ghc
+          sudo rm -rf "/usr/local/share/boost"
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+          sudo apt-get clean
+          df -h
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gawk wget git diffstat unzip texinfo gcc-multilib \
+            build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
+            xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa \
+            libsdl1.2-dev xterm locales zstd liblz4-tool file
+          sudo locale-gen en_US.UTF-8
+
+      - name: Cache downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            downloads
+            sstate-cache
+          key: yocto-${{ matrix.machine }}-${{ github.run_id }}
+          restore-keys: |
+            yocto-${{ matrix.machine }}-
+            yocto-
+
+      - name: Setup build environment and build ${{ matrix.machine }}
+        run: |
+          bash meta-meson/aml-setenv.sh ${{ matrix.machine }}
+          bitbake amlogic-yocto
+        timeout-minutes: 360
+
+      - name: Upload artifacts for ${{ matrix.machine }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: yocto-image-${{ matrix.machine }}-${{ github.run_id }}
+          path: build/tmp/deploy/images/${{ matrix.machine }}/*.img
+          retention-days: 7
+          if-no-files-found: warn
