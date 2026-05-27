@@ -13,5 +13,12 @@ aml-comp/hardware/aml-5.15/amlogic/vfm_cap/Module.symvers
 aml-comp/hardware/aml-5.15/amlogic/vfm_cap/modules.order
 sbs/
 one-kvm-streambox/
+gst-plugins-bad/
+gst-plugins-good/
+image_runner/
+cockpit-streambox-settings/
+cockpit-gst-manager/
+aml_tvserver_streambox/
 openspec/
 .opencode/
+AGENTS.md
